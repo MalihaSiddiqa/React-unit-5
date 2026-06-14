@@ -7,7 +7,7 @@ function TextInput({text,setText}) {
         <textarea
         placeholder="Start typing..."
         value={text}
-        onChange={(e) => setText(e.target.value)}
+        onChange={handleChange}
         rows="8"
         >
         </textarea>
